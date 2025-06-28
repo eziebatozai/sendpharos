@@ -3,7 +3,7 @@ const fs = require("fs");
 
 // ======== KONFIGURASI ========
 const PRIVATE_KEY = "ISI_PRIVATE_KEY_MU"; // Jangan bagikan ini ke siapa pun!
-const RPC_URL = "https://rpc.testnet.pharosnetwork.xyz"; // Ganti dengan RPC Pharos Testnet
+const RPC_URL = "https://testnet.dplabs-internal.com"; // Ganti dengan RPC Pharos Testnet
 const AMOUNT_TO_SEND = "0.01"; // jumlah yang dikirim (dalam ETH)
 const DELAY_MS = 5000; // delay antar transaksi (ms)
 const WALLET_FILE = "wallets.txt"; // file txt berisi address tujuan
